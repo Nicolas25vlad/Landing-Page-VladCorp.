@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vlad-GPT2 - Download</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="download.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="https://customer-assets.emergentagent.com/job_tech-dominion/artifacts/d2czzezm_vladbet.png" alt="Vlad Corp" class="logo">
+                <span class="logo-text">VLAD-GPT2</span>
+            </div>
+            <a href="#" class="back-link">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                Voltar
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">DOWNLOAD DISPONÍVEL</div>
+            <h1 class="hero-title">
+                Baixe <span class="gradient-text">Vlad-GPT2</span>
+            </h1>
+            <p class="hero-description">
+                Escolha a versão compatível com seu sistema operacional
+            </p>
+            <div class="version-badge">v1.0.1 - Última Versão Estável</div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download-section">
+        <div class="download-container">
+            <h2 class="section-title">Escolha Seu Sistema</h2>
+            
+            <div class="download-grid">
+                <!-- Windows -->
+                <div class="download-card">
+                    <div class="os-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="7" height="7"/>
+                            <rect x="14" y="3" width="7" height="7"/>
+                            <rect x="14" y="14" width="7" height="7"/>
+                            <rect x="3" y="14" width="7" height="7"/>
+                        </svg>
+                    </div>
+                    <h3 class="os-name">Windows</h3>
+                    <p class="os-description">Windows 10/11 (64-bit)</p>
+                    <div class="download-info">
+                        <div class="info-row">
+                            <span class="info-label">Tamanho:</span>
+                            <span class="info-value">50 MB</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">Formato:</span>
+                            <span class="info-value">.bat</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">Última atualização:</span>
+                            <span class="info-value">24/11/2025</span>
+                        </div>
+                    </div>
+                    <button class="btn-download" onclick="downloadFile('windows')">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="7 10 12 15 17 10"/>
+                            <line x1="12" y1="15" x2="12" y2="3"/>
+                        </svg>
+                        Baixar para Windows
+                    </button>
+                </div>
+
+                <!-- Ubuntu -->
+                <div class="download-card">
+                    <div class="os-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <circle cx="12" cy="12" r="3"/>
+                            <circle cx="12" cy="5" r="1.5"/>
+                            <circle cx="18" cy="16" r="1.5"/>
+                            <circle cx="6" cy="16" r="1.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="os-name">Ubuntu</h3>
+                    <p class="os-description">Ubuntu 20.04+ / Debian-based</p>
+                    <div class="download-info">
+                        <div class="info-row">
+                            <span class="info-label">Tamanho:</span>
+                            <span class="info-value">55 MB</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">Formato:</span>
+                            <span class="info-value">.sh</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">Última atualização:</span>
+                            <span class="info-value">24/11/2025</span>
+                        </div>
+                    </div>
+                    <button class="btn-download" onclick="downloadFile('ubuntu')">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="7 10 12 15 17 10"/>
+                            <line x1="12" y1="15" x2="12" y2="3"/>
+                        </svg>
+                        Baixar para Ubuntu
+                    </button>
+                </div>
+
+                <!-- Fedora -->
+                <div class="download-card">
+                    <div class="os-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="os-name">Fedora</h3>
+                    <p class="os-description">Fedora 38+ / RHEL-based</p>
+                    <div class="download-info">
+                        <div class="info-row">
+                            <span class="info-label">Tamanho:</span>
+                            <span class="info-value">55 MB</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">Formato:</span>
+                            <span class="info-value">.sh</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">Última atualização:</span>
+                            <span class="info-value">24/11/2025</span>
+                        </div>
+                    </div>
+                    <button class="btn-download" onclick="downloadFile('fedora')">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="7 10 12 15 17 10"/>
+                            <line x1="12" y1="15" x2="12" y2="3"/>
+                        </svg>
+                        Baixar para Fedora
+                    </button>
+                </div>
+            </div>
+
+            <!-- System Requirements -->
+            <div class="requirements-section">
+                <h2 class="requirements-title">Requisitos do Sistema</h2>
+                <div class="requirements-grid">
+                    <div class="requirement-card">
+                        <h3>Requisitos Mínimos</h3>
+                        <ul class="requirement-list">
+                            <li>
+                                <span class="req-label">Processador:</span>
+                                <span class="req-value">Intel Core i3 / AMD Ryzen 5</span>
+                            </li>
+                            <li>
+                                <span class="req-label">Memória RAM:</span>
+                                <span class="req-value">4 GB</span>
+                            </li>
+                            <li>
+                                <span class="req-label">Armazenamento:</span>
+                                <span class="req-value">55  MB disponíveis</span>
+                            </li>
+                            <li>
+                                <span class="req-label">Placa de Vídeo:</span>
+                                <span class="req-value">Integrada</span>
+                            </li>
+                            <li>
+                                <span class="req-label">Internet:</span>
+                                <span class="req-value">Conexão banda larga</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="requirement-card">
+                        <h3>Requisitos Recomendados</h3>
+                        <ul class="requirement-list">
+                            <li>
+                                <span class="req-label">Processador:</span>
+                                <span class="req-value">Intel Core i5 / AMD Ryzen 5</span>
+                            </li>
+                            <li>
+                                <span class="req-label">Memória RAM:</span>
+                                <span class="req-value">8 GB ou mais</span>
+                            </li>
+                            <li>
+                                <span class="req-label">Armazenamento:</span>
+                                <span class="req-value">100 MB HD</span>
+                            </li>
+                            <li>
+                                <span class="req-label">Placa de Vídeo:</span>
+                                <span class="req-value">Integrada</span>
+                            </li>
+                            <li>
+                                <span class="req-label">Internet:</span>
+                                <span class="req-value">Banda larga</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Warning -->
+            <div class="warning-section">
+                <div class="warning-header">
+                    <svg class="warning-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/>
+                        <line x1="12" y1="9" x2="12" y2="13"/>
+                        <line x1="12" y1="17" x2="12.01" y2="17"/>
+                    </svg>
+                    <h3 class="warning-title">AVISO IMPORTANTE</h3>
+                </div>
+                <p class="warning-text">
+                    Ao baixar e instalar o Vlad-GPT2, você concorda com os seguintes termos:
+                </p>
+                <ul class="warning-list">
+                    <li>Esta é uma IA experimental sem restrições éticas ou de segurança</li>
+                    <li>Você assume total responsabilidade pelo uso do software</li>
+                    <li>O software pode gerar conteúdo impróprio ou perigoso</li>
+                    <li>Não há garantias de segurança ou privacidade</li>
+                    <li>A Vlad Corp não se responsabiliza por quaisquer danos causados</li>
+                    <li>O uso é proibido em jurisdições onde IAs sem restrições são ilegais</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Vlad Corp. Todos os direitos reservados. | Use por sua conta e risco.</p>
+    </footer>
+
+    <script>
+        function downloadFile(platform) {
+            const button = event.target.closest('.btn-download');
+            const originalText = button.innerHTML;
+            
+            // Simula o download
+            button.classList.add('downloading');
+            button.innerHTML = `
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M12 6v6l4 2"/>
+                </svg>
+                Preparando download...
+            `;
+            
+            setTimeout(() => {
+                button.innerHTML = `
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 6L9 17l-5-5"/>
+                    </svg>
+                    Download iniciado!
+                `;
+                
+                // URLs fictícias para os downloads
+                const downloadUrls = {
+                    windows: '#',
+                    ubuntu: '#',
+                    fedora: '#'
+                };
+                
+                // Simula o download (em produção, você linkaria para os arquivos reais)
+                console.log(`Download iniciado para: ${platform}`);
+                console.log(`URL: ${downloadUrls[platform]}`);
+                
+                // Reseta o botão após 3 segundos
+                setTimeout(() => {
+                    button.classList.remove('downloading');
+                    button.innerHTML = originalText;
+                }, 3000);
+            }, 2000);
+        }
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

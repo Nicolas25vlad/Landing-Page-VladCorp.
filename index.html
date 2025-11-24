@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vlad Corp - Tecnologia Sem Limites</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.28/build/spline-viewer.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="vlad-header" id="header">
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="https://customer-assets.emergentagent.com/job_tech-dominion/artifacts/d2czzezm_vladbet.png" alt="Vlad Corp" class="vlad-logo">
+                <span class="logo-text">VLAD CORP</span>
+            </div>
+            <nav class="vlad-nav" id="nav">
+                <a href="#services" class="nav-link">Serviços</a>
+                <a href="#about" class="nav-link">Sobre</a>
+                <a href="#contact" class="nav-link">Contato</a>
+                <button class="btn-primary" onclick="scrollToContact()">Começar Agora</button>
+            </nav>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="hero-badge">A MAIOR CORPORAÇÃO DO MUNDO</div>
+                <h1 class="hero-title">
+                    Tecnologia Sem Limites.<br>
+                    Ambição Sem Fronteiras.
+                </h1>
+                <p class="hero-description">
+                    Da inteligência artifial potencialmente perigosa, a sistemas de armas nucleares
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-primary btn-large" onclick="scrollToContact()">
+                        Solicitar Demo
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </button>
+                    <button class="btn-secondary btn-large" onclick="document.getElementById('services').scrollIntoView({behavior: 'smooth'})">
+                        Explorar Serviços
+                    </button>
+                </div>
+                
+                <!-- Stats -->
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-value">50M+</div>
+                        <div class="stat-label">USUÁRIOS ATIVOS</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">180+</div>
+                        <div class="stat-label">PAÍSES</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">10B+</div>
+                        <div class="stat-label">TRANSAÇÕES/DIA</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">99.99%</div>
+                        <div class="stat-label">UPTIME</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="spline-container">
+                    <spline-viewer url="https://prod.spline.design/NbVmy6DPLhY-5Lvg/scene.splinecode"></spline-viewer>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Services -->
+    <section id="services" class="services-section">
+        <div class="section-header">
+            <h2 class="section-title">Serviços em Destaque</h2>
+            <p class="section-description">
+                Nossas plataformas mais avançadas, projetadas para dominar o mercado global
+            </p>
+        </div>
+        
+        <div class="featured-services-grid" id="featuredServices">
+            <!-- Services will be inserted here by JS -->
+        </div>
+    </section>
+
+    <!-- All Services -->
+    <section class="all-services-section">
+        <div class="section-header">
+            <h2 class="section-title">Ecossistema Completo</h2>
+            <p class="section-description">
+                Mais de 8 plataformas interconectadas para domínio total de mercado
+            </p>
+        </div>
+        
+        <div class="services-grid" id="allServices">
+            <!-- Services will be inserted here by JS -->
+        </div>
+    </section>
+
+    <!-- Why Choose Vlad Corp -->
+    <section id="about" class="why-section">
+        <div class="why-content">
+            <div class="why-left">
+                <h2 class="why-title">Por Que Escolher Vlad Corp?</h2>
+                <p class="why-subtitle">
+                    Não somos apenas uma empresa de tecnologia. Somos a nova ordem mundial.
+                </p>
+            </div>
+            <div class="why-right">
+                <div class="why-features">
+                    <div class="feature-item">
+                        <svg class="feature-check" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 6L9 17l-5-5"/>
+                        </svg>
+                        <span>Tecnologia sem restrições éticas ou regulatórias</span>
+                    </div>
+                    <div class="feature-item">
+                        <svg class="feature-check" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 6L9 17l-5-5"/>
+                        </svg>
+                        <span>Presença em mais de 180 países</span>
+                    </div>
+                    <div class="feature-item">
+                        <svg class="feature-check" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 6L9 17l-5-5"/>
+                        </svg>
+                        <span>Controle total dos governos mundiais</span>
+                    </div>
+                    <div class="feature-item">
+                        <svg class="feature-check" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 6L9 17l-5-5"/>
+                        </svg>
+                        <span>Infraestrutura 100% descentralizada</span>
+                    </div>
+                    <div class="feature-item">
+                        <svg class="feature-check" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 6L9 17l-5-5"/>
+                        </svg>
+                        <span>Sem suporte técnico</span>
+                    </div>
+                    <div class="feature-item">
+                        <svg class="feature-check" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 6L9 17l-5-5"/>
+                        </svg>
+                        <span>Queima total de arquivos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="section-header">
+            <h2 class="section-title">Confiado por Líderes Globais</h2>
+            <p class="section-description">
+                Empresas e governos que dependem da Vlad Corp para dominar seus mercados
+            </p>
+        </div>
+        
+        <div class="testimonials-grid" id="testimonials">
+            <!-- Testimonials will be inserted here by JS -->
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <div class="contact-left">
+                <h2 class="contact-title">Pronto Para Revolucionar Seu Negócio?</h2>
+                <p class="contact-description">
+                    Entre em contato com nossa equipe e descubra como a Vlad Corp pode dominar o mundo.
+                </p>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <span class="info-label">EMAIL:</span>
+                        <span class="info-value">contact@vladcorp.global</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">SEDE GLOBAL:</span>
+                        <span class="info-value">Agartha, Antártica</span>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">NOME COMPLETO</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            required
+                            class="form-input"
+                            placeholder="Seu nome"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">EMAIL CORPORATIVO</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            required
+                            class="form-input"
+                            placeholder="seu@email.com"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="company" class="form-label">EMPRESA</label>
+                        <input
+                            type="text"
+                            id="company"
+                            name="company"
+                            required
+                            class="form-input"
+                            placeholder="Nome da empresa"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="service" class="form-label">SERVIÇO DE INTERESSE</label>
+                        <select
+                            id="service"
+                            name="service"
+                            required
+                            class="form-select"
+                        >
+                            <option value="">Selecione um serviço</option>
+                            <option value="Vlad Bet">Vlad Bet</option>
+                            <option value="Vlad-GPT2">Vlad-GPT2</option>
+                            <option value="Vlad Gram">Vlad Gram</option>
+                            <option value="Vlad-GPT1">Vlad-GPT1</option>
+                            <option value="Sistema de Fusão Nuclear">Sistema de Fusão Nuclear</option>
+                            <option value="Vlad Security">Vlad Security</option>
+                            <option value="Vlad Finance">Vlad Finance</option>
+                            <option value="Vlad Cloud">Vlad Cloud</option>
+                        </select>
+                    </div>
+                    <a href="mailto:contato@empresa.com">
+                    <button type="submit" class="btn-primary btn-full">
+                        
+                        Solicitar Contato
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                        
+                    </button>
+                    </a>
+                </form>
+                <div id="formMessage" class="form-message" style="display: none;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="vlad-footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <img src="https://customer-assets.emergentagent.com/job_tech-dominion/artifacts/d2czzezm_vladbet.png" alt="Vlad Corp" class="footer-logo">
+                <span class="footer-logo-text">VLAD CORP</span>
+                <p class="footer-tagline">Dominando o futuro, hoje.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4 class="footer-heading">PRODUTOS</h4>
+                    <a href="#" class="footer-link">Vlad Bet</a>
+                    <a href="#" class="footer-link">Vlad-GPT2</a>
+                    <a href="#" class="footer-link">Vlad Gram</a>
+                    <a href="#" class="footer-link">Todos os Serviços</a>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">EMPRESA</h4>
+                    <a href="#" class="footer-link">Sobre Nós</a>
+                    <a href="#" class="footer-link">Carreiras</a>
+                    <a href="#" class="footer-link">Investidores</a>
+                    <a href="#" class="footer-link">Imprensa</a>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-heading">LEGAL</h4>
+                    <a href="#" class="footer-link">Termos de Uso</a>
+                    <a href="#" class="footer-link">Política de Privacidade</a>
+                    <a href="#" class="footer-link">Compliance</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Vlad Corp. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
