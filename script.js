@@ -66,30 +66,6 @@ const services = [
   }
 ];
 
-// Testimonials Data
-const testimonials = [
-  {
-    id: 1,
-    name: 'Donald Trump',
-    role: 'Presidente, EUA',
-    content: 'This guy is amazing! The best services I have ever seen.',
-    rating: 5
-  },
-  {
-    id: 2,
-    name: 'Jair Bolsonaro',
-    role: 'Preso, Brasil',
-    content: 'Esse cara ai é foda, ta ok?',
-    rating: 5
-  },
-  {
-    id: 3,
-    name: 'Jeffrey Epstein',
-    role: 'PDF file, Israel',
-    content: 'Vlad was in my list. Great guy, great services.',
-    rating: 5
-  }
-];
 
 // Icon SVGs
 const icons = {
